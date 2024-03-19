@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Maulana Website CV</title>
+
+    <!-- link TO CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <!-- Menu Icon -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!-- Links -->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentangsaya">Tentang saya</a></li>
+            <li><a href="#hobi">Hobi</a></li>
+            <li><a href="#riwayatpendidikan">Riwayat pendidikan</a></li>
+            <li><a href="#kontak">kontak</a></li>
+            <li><a href="#bukutamu">Buku Tamu</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Selamat Datang Di Online Resume saya</h1>
+            <p>Kalo mau mampir dulu, boleh klik dibawah yaaa..</p>
+            <a href="https://www.instagram.com/arilmaulanaa_" class="btn">Klik</a>
+        </div>
+        <div class="home-img">
+            <img id="profile-pic" src="image/profil.jpg" alt="Foto Profil">
+    </section>
+
+    <!-- Tentang saya -->
+    <section class="tentangsaya" id="tentangsaya">
+        <div class="heading">
+            <h2>Tentang Saya</h2>
+        </div>
+        <div class="tentangsaya-text">
+            <p>Hi... perkenalkan saya Ariel Maulana Tajiri. Saya lahir di Bandung, 12 Januari 2004 saat ini saya berkuliah di Ma'soem University dari Prodi Bisnis Digital.</p>
+            <p>Saya remaja berusia 20 tahun. Saya adalah orang yang sangat disiplin dalam menjalankan tugas-tugas tertentu dan selalu bertanggung jawab terhadap setiap tanggung jawab yang diberikan kepada saya.</p>
+        </div>
+    </section>
+
+    <!-- Hobi -->
+    <section class="hobi" id="hobi">
+        <div class="container">
+            <div class="heading">
+                <h2>Hobi Saya</h2>
+            </div>
+            <div class="hobi-img">
+                <img src="image/hobi1.jpg" alt="Hobi">
+            </div>
+            <div class="hobi-description">
+                <p>Saya mempunyai beberapa hobi yaitu:</p>
+                <ul>
+                    <li>Bermain bola</li>
+                    <li>Mendaki gunung</li>
+                    <li>Mendengarkan Musik</li>
+                    <li>Bermain game</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Riwayat pendidikan -->
+    <section class="riwayatpendidikan" id="riwayatpendidikan">
+        <div class="heading">
+            <h2>Riwayat pendidikan saya</h2>
+        </div>
+        <table cellspacing="2" cellpadding="2" border="1" width="70%">
+            <caption>Riwayat Pendidikan</caption>
+            <tr>
+                <th width="15%">Tempat Pendidikan</th>
+                <th width="16%">Tahun Lulus</th>
+            </tr>
+            <tr>
+                <td width="15%">SMP PGRI Cicalengka</td>
+                <td width="16%">&nbsp;2017 - 2019</td>
+            </tr>
+            <tr>
+                <td width="15%">SMK Ma'arif Terpadu Cicalengka</td>
+                <td width="16%">&nbsp;2019 - 2022</td>
+            </tr>   
+            <tr>
+                <td width="15%">Ma'soem University</td>
+                <td width="16%">&nbsp;2022 - sekarang</td>
+            </tr> 
+        </table>
+    </section>
+
+    <!-- Kontak -->
+    <section class="kontak" id="kontak">
+        <div class="heading">
+            <h2>Kontak Saya</h2>
+        </div>
+        <pre>
+Alamat          : Kp.Peundeuy, Rt.01/Rw.03, Desa.Tanjung Laya, Kec.Cikancung, Kab.Bandung, Prov.Jawa barat
+No Telp         : 089688152886
+Instagram       : @arilmaulanaa_
+Email           : arilmaulana2740@gmail.com
+        </pre>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1700713873340!6m8!1m7!1sLEKj73NNhYaEPGvMWG1mxw!2m2!1d-6.991507002373577!2d107.8214371596541!3f165.32443386040444!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- Buku Tamu -->
+    <section class="bukutamu" id="bukutamu">
+        <div class="heading">
+            <h2>Buku Tamu</h2>
+        </div>
+    <body>
+        <div class="container">
+            <form id="bukutamu">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Komentar:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                </div>
+                <button type="submit">Kirim Pendapat</button>
+            </form>
+            <div id="confirmation">
+                
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+</body>
+</html>
